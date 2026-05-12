@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte & Sustentável | Futuro em Equilíbrio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar" aria-label="Menu Principal">
+            <div class="logo">AgroSustentável</div>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize('increase')" aria-label="Aumentar fonte">A+</button>
+                <button onclick="changeFontSize('decrease')" aria-label="Diminuir fonte">A-</button>
+                <button onclick="toggleContrast()" aria-label="Alternar Alto Contraste">◐</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <h1 id="hero-title">Equilíbrio entre Produção e Meio Ambiente</h1>
+            <p>Tecnologia e respeito à terra para alimentar o futuro.</p>
+        </section>
+
+        <section id="pilares" class="reveal-section" aria-labelledby="pilar-title">
+            <h2 id="pilar-title" class="section-title">Nossos Pilares</h2>
+            <div id="cards-container" class="grid-container">
+                </div>
+        </section>
+
+        <section id="tecnologias" class="reveal-section" aria-labelledby="tech-title">
+            <h2 id="tech-title" class="section-title">Tecnologias Sustentáveis</h2>
+            <div id="accordion-container" class="accordion">
+                </div>
+        </section>
+
+        <section id="galeria" class="reveal-section" aria-label="Galeria de Projetos">
+            <div class="carousel" id="carousel">
+                <button class="carousel-btn prev" aria-label="Slide anterior">❮</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track" id="carousel-track">
+                        </ul>
+                </div>
+                <button class="carousel-btn next" aria-label="Próximo slide">❯</button>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Agro Forte - Inovação com Responsabilidade.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
